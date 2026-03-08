@@ -1,20 +1,50 @@
-<<<<<<< HEAD
-# React + Vite
+# Personal User Manual
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite website for my **UX 102 Assignment #3: Personal User Manual**.  
+This project turns the assignment into a polished, portfolio-style web experience that presents how I work, communicate, collaborate, and contribute in team environments.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This site was designed as both:
 
-## React Compiler
+- an academic submission for **McMaster University Continuing Education**
+- a branded personal project that reflects my existing portfolio style and frontend skills
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The content is structured like UX documentation, with sections covering:
 
-## Expanding the ESLint configuration
+- overview
+- work style
+- communication
+- UX lens
+- how others can help
+- signals to look for
+- favourites
+- testimonial
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Daniel Mason's Personal User Manual
->>>>>>> 77b0654745a0dbaa62fb15ed8664b5f7b7cfdd87
+The site also includes a **Print / Save PDF** feature so it can be exported as a PDF submission if needed.
+
+## Project Goals
+
+The main goals of this project were to:
+
+- convert a written assignment into an engaging digital experience
+- apply UX principles such as clarity, information architecture, and accessibility
+- create a cohesive visual style aligned with my personal brand
+- make the content easy to scan, navigate, and export
+
+## Tech Stack
+
+- **React**
+- **Vite**
+- **CSS**
+- **JavaScript**
+
+## Features
+
+- Responsive single-page layout
+- Sticky top navigation with smooth scrolling
+- Section-based information architecture
+- Branded card-based UI
+- Portfolio and LinkedIn links
+- Print-friendly styling for PDF export
+- Clean visual hierarchy for readability and engagement
