@@ -183,7 +183,7 @@ function App() {
         {/* OVERVIEW */}
         <Section
           id="overview"
-          title="Overview"
+          title="Biography"
           subtitle="Who I am as a teammate"
         >
           <div className="grid2">
@@ -194,6 +194,13 @@ function App() {
                 intuitive, accessible, and maintainable. In teams, I’m often the
                 person translating intent into implementation while keeping
                 usability and long-term sustainability in view.
+              </p>
+              <br />
+              <p className="sub">
+                I enjoy collaborating with cross-functional teams where design
+                and engineering work together to create meaningful user
+                experiences. My technical background allows me to bridge the gap
+                between design ideas and practical implementation.
               </p>
               <ul className="list">
                 <li>I like clear goals and a shared definition of “done.”</li>
@@ -295,6 +302,28 @@ function App() {
               <div className="quote">
                 If I’m quiet, I’m usually processing and synthesizing - not
                 disengaged.
+              </div>
+            </Card>
+          </div>
+        </Section>
+
+        <Section id="demotivators" title="Things That Can Demotivate Me">
+          <div className="grid2">
+            <Card>
+              <ul className="list">
+                <li>
+                  Unclear expectations or changing requirements without
+                  communication.
+                </li>
+                <li>Disrespectful or dismissive communication.</li>
+                <li>Negative team environments where ideas are discouraged.</li>
+              </ul>
+            </Card>
+
+            <Card>
+              <div className="quote">
+                Clear communication and mutual respect usually solve most team
+                problems.
               </div>
             </Card>
           </div>
@@ -405,7 +434,7 @@ function App() {
               <ul className="list">
                 <li>Share context early - links, constraints, examples.</li>
                 <li>
-                  If priorities change, a quick call and/or notes saves hours.
+                  If priorities change, a quick call or short written note saves hours.
                 </li>
                 <li>Tell me if something feels unclear or off-track.</li>
               </ul>
@@ -472,7 +501,7 @@ function App() {
             <Card>
               <h3 style={{ margin: 0, fontSize: 14 }}>Off-work</h3>
               <ul className="list">
-                <li>Gaming - (StarCraft 2, and Pokemon TCG)</li>
+                <li>Gaming (StarCraft 2 and Pokemon TCG)</li>
                 <li>Learning new tools and technologies</li>
                 <li>Mentorship/helping others grow</li>
               </ul>
@@ -490,18 +519,17 @@ function App() {
               “I am pleased to write this letter of recommendation for Daniel
               Mason, who has been a part of our support team. Daniel has
               demonstrated exceptional technical ability, problem-solving
-              skills, and a strong eagerness to learn and grow. During our time
-              working together, he has shown his ability to quickly grasp new
-              technologies and apply them effectively has been impressive.
-              Beyond his technical skills, Daniel is an excellent team player
-              who communicates effectively and collaborates seamlessly with
-              colleagues across different teams. He is proactive in seeking
-              feedback and continuously strive to enhance his knowledge and
-              skills. His positive attitude and dedication make them a great
-              asset to any organization. I highly recommend Daniel for any
-              opportunity in software development/support engineering. He has
-              the potential to grow into an outstanding engineer, and I am
-              confident that he will bring the same level of commitment and
+              skills, and a strong eagerness to learn and grow. His ability to
+              quickly grasp new technologies and apply them effectively has been
+              impressive. Beyond his technical skills, Daniel is an excellent
+              team player who communicates effectively and collaborates
+              seamlessly with colleagues across different teams. He is proactive
+              in seeking feedback and continuously strives to enhance his
+              knowledge and skills. His positive attitude and dedication make
+              them a great asset to any organization. I highly recommend Daniel
+              for any opportunity in software development/support engineering.
+              He has the potential to grow into an outstanding engineer, and I
+              am confident that he will bring the same level of commitment and
               excellence to their next role.”
             </p>
           </Card>
